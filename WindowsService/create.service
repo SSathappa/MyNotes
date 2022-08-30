@@ -1,5 +1,7 @@
-template
-sc.exe create "service name" binpath= "..\app.exe" start= auto
+# Create windows service using power shell command
+ 
+## create service
+   `sc.exe create "service name" binpath= "..\app.exe" start= auto`
 
-to add description
-sc.exe description "service name" "This is the description of the service.."
+## add description
+   `sc.exe description "service name" "This is the description of the service.."`
